@@ -18,7 +18,7 @@ public class CalculatorHandler implements FileStore.Iface{
 	  private List<RFileMetadata> l;
 	  public CalculatorHandler() {
 		  l= new ArrayList<RFileMetadata>();
-	  }
+	  } 
 	  
 	  	StatusReport sr = new StatusReport();	  	
 	  	RFileMetadata rMeta= new RFileMetadata();	
